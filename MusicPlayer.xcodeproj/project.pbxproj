@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -125,7 +125,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = "Sai Kambmapati";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					8B3DC4B42422A2810067355E = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -133,7 +133,7 @@
 				};
 			};
 			buildConfigurationList = 8B3DC4B02422A2810067355E /* Build configuration list for PBXProject "MusicPlayer" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -317,14 +317,15 @@
 				CODE_SIGN_ENTITLEMENTS = MusicPlayer/MusicPlayer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MusicPlayer/Preview Content\"";
-				DEVELOPMENT_TEAM = XJYMG76226;
+				DEVELOPMENT_TEAM = 4MN45GZSDT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.MusicPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.junwoo.MusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,14 +340,15 @@
 				CODE_SIGN_ENTITLEMENTS = MusicPlayer/MusicPlayer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MusicPlayer/Preview Content\"";
-				DEVELOPMENT_TEAM = XJYMG76226;
+				DEVELOPMENT_TEAM = 4MN45GZSDT;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.MusicPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.junwoo.MusicPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;

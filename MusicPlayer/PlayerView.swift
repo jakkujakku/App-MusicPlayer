@@ -33,6 +33,7 @@ struct PlayerView: View {
                 }
                 
                 HStack(spacing: 40) {
+                    
                     Button(action: {
                         if self.musicPlayer.currentPlaybackTime < 5 {
                             self.musicPlayer.skipToPreviousItem()

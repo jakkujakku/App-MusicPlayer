@@ -10,7 +10,7 @@ import Foundation
 import StoreKit
 
 class AppleMusicAPI {
-    let developerToken = "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiIsImtpZCI6Ikw1WjQ3TEQ0N1cifQ.eyJpc3MiOiJYSllNRzc2MjI2IiwiZXhwIjoxNjA2NzYwNjIwLCJpYXQiOjE1OTA5ODkwMTl9.3D0q4GwH4wucCVnnEcuXcSDjNZJJEHCJydruCdAbueAMfDhpdVea4Dvi38DXHGMrA_Mew1JyedP_M-78-T4cjw"
+    let developerToken = "Your Developer Token"
 
     func getUserToken() -> String {
         var userToken = String()
